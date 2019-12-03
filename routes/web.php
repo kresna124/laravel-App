@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web Routes\
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -24,3 +24,5 @@ Route::get('/students/create','StudentsController@create');
 Route::post('/students','StudentsController@store');
 
 Route::get('/students/{student}','StudentsController@show');
+
+Route::delete('/students/{student}','StudentsController@destroy');
