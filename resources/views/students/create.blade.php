@@ -12,7 +12,7 @@
 			    Form Tambah Data Mahasiswa
 			  </div>
 			  <div class="card-body">
-			    <form action="" method="post">
+			    <form action="/students" method="post">
 			    @csrf
 					 <div class="form-group">
 					    <label for="nama">Nama</label>
